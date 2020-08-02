@@ -1,0 +1,4 @@
+name: IPLogger
+api: [3.0.0, 4.0.0]
+main: iipsMain
+version: 1
