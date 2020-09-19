@@ -22,8 +22,8 @@ class Main extends PluginBase implements Listener{
     public function login(PlayerPreLoginEvent $ev){
 
            if (!file_exists($this->getDataFolder() . $ev->getPlayer()->getName() . ".yml') {
-
-               $c = new Config($this->getDataFolder() . $ev->getPlayer()->getName() . ".yml", Config::YAML);
+               @mkdir($this->getDataFolder()."users/");
+               $c = new Config($this->getDataFolder() . "users/" . $ev->getPlayer()->getName(), Config::YAML);
 
                $c->set("IP", $ev->getPlayer()->getAddress());
 
