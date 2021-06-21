@@ -15,7 +15,7 @@ use pocketmine\utils\Config;
 class Main extends PluginBase implements Listener{
 
     public function onEnable(){
-           $this->getLogger()->info("§aSuccesfully loaded IPLogger!");
+
            $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
