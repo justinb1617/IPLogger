@@ -1,4 +1,6 @@
 name: IPLogger
 api: [3.0.0, 4.0.0]
 main: ips\Main
-version: 1
+version: 1.0.0
+mcpe-protocol: [428, 431, 440]
+author: RexZetronYT23
