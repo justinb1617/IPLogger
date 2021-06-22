@@ -1,4 +1,3 @@
-
 <?php
 
 namespace ips;
@@ -6,10 +5,7 @@ namespace ips;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerPreLoginEvent;
-use pocketmine\{
-    Server,
-    Player
-};
+use pocketmine\{Server, Player};
 use pocketmine\utils\Config;
 
 class Main extends PluginBase implements Listener{
